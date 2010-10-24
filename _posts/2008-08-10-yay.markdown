@@ -1,0 +1,14 @@
+--- 
+layout: post
+title: Yay
+post_id: "432"
+categories:
+- Computers
+- Job
+- Science
+---
+So I guess I finally can rest and stop here with my job hunting... I've recently snagged a temporary job working as an audio/visual maintenance person for a vascular disease conference (which is transitioning over to podcast compiling person very soon.)  I've got an interview coming up for Fred Meyers as well with a medical genetics lab in the UW Medical Center.  I'm hoping that the lab takes me on, since I figure it'd be better to crunch numbers out for a lab than to stand around for five hours.
+
+In any case, during the Vasculata 2008 conference, a few lectures caught my eye, namely the lectures concentrating on systems biology.  I can't understand biology jargon worth a damn, but the systems biology lectures were pretty accessible and were actually pretty interesting in terms of the ways that math can be applied to large networks of genes (and other biology stuff as well.)
+
+I can't say I know all of the foundational stuff that might be required to start in this field, but it's pretty compelling stuff that might just get me sucked into biology.

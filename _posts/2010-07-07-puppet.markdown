@@ -1,0 +1,37 @@
+--- 
+layout: post
+title: Puppet
+post_id: "519"
+categories:
+- Computers
+- Configuration Management
+- Puppet
+- Ruby
+- Systems Administration
+---
+I've started to use <a href="http://puppetlabs.com">Puppet</a> at my current job, which is a configuration management system for UNIX operating systems, including Linux, *BSD, Solaris, and Mac OS X (Windows support is coming soon according to Reductive Labs: though GPO's are nice, the programmatic interface of Puppet easily trumps GPO's, since you can't really extend GPO's beyond whatever interfaces Microsoft provides out of the box.)
+
+After working with systems that are maintained with custom scripts and with a lot of customizations on each box, it seems obvious to me that Puppet is the way to go.  It's a common "infrastructure language" that you can communicate in with everyone else, which makes it easy to share how one implements a piece of software in a given system.  Also, the language is a declarative specification that describes what the state of your infrastructure <em>should</em> look like, rather than writing procedural code that will, more likely than not, only work in one given site with a specific set of systems.  A declarative language also helps in keeping systems within a consistent state; if any change is seen at all that does not match up with the specification, Puppet swoops in and makes sure that the machine is consistent with the specification.  This is another thing too: the Puppet client can be safely run multiple times without it changing anything underneath your feet, unless there's any changes that aren't in sync with the central specification.
+
+Puppet communicates to the master server in XML-RPC over HTTP with YAML formatted data; in the future, this will all be converted to a RESTful style of transport.  It's coded in Ruby, so that means we'd either have to use WEBRick (ew), Mongrel, or Passenger.
+
+How does Puppet handle different systems and architectures?  More often than not, we use another program that Puppet depends on called "facter," which is a Ruby program that grabs the various "facts" about a particular system and stores them in variables that Puppet can then refer to.  For instance, if say we wanted to install apache2 on CentOS and Debian systems, we would write this bit of code in Puppet in order to catch all of the possible package names:
+
+<pre class="brush: ruby">$apachepkg = case $operatingsystem {
+        debian => 'apache2',
+        centos => 'httpd',
+        default => undef
+}</pre>
+
+<em>(Note: $operatingsystem is a global variable that is pulled in from facter.  If we had any other variables that we wanted to assign through facter in the future, we can easily do that.)</em>
+
+Thus, if Puppet sees that the operating system is Debian, the case statement will assign the value "apache2" to $apachepkg, "httpd" if it's CentOS, or will "undefine" the variable if it's anything else.  Puppet has hooks for many operating systems and distributions, so you won't have to worry too much about figuring out whether to use `uname -a`, `lsb-release`, or whatever other tool on whatever operating system in order to figure out this bit of information for a particular host (I'm writing this right now on a Mac OS X machine, and running `uname -a` on my machine gives an output that could possibly be misconstrued as describing a barebones Darwin host; in practice, this will likely not be the case, but imagine if you had to deal with these sorts of corner cases in a shell script . . . )
+
+There's a few caveats to Puppet, however:
+
+<ol>
+<li>To my knowledge, Puppet's language is not Turing complete.  This might not seem like a huge deal at first, but there's a lot of ugly bootstrapping that a specification can take on that will become unmaintainable and will end up undermining the idempotent nature of the language; there's in fact a type in Puppet called "exec" that allows you to execute arbitrary commands on a Puppet managed box, and this is often used to quickly manage pieces of the infrastructure that is typically not managed by Puppet (extracting tarballs and moving stuff around, for instance.)  An example of this that I ran into was creating a Puppet specification for a wiki.  The OS packages wouldn't cut it, and I was running against a deadline, so I had to grab a package straight from the upstream provider's website, write some code in Puppet with the exec type in order to extract and move the contents of the tarball in place, and <em>make sure it only happens once</em> under specific conditions.  The italics are placed there to show how kludgy the whole thing can become; instead of writing a specification describing the system, we're instead trying to write procedural code in a limited domain specific language.</li>
+<li>For now, Puppet doesn't scale too well; I imagine this will be much better once Puppet migrates over to a RESTful transport.  We can mitigate this by running Mongrel or Passenger for our web server, but currently, the Puppet Master (yes, that's what it's called; the daemon is named puppetmasterd) has to load everything into memory before pushing specifications to the clients.  This is terrible in a number of ways: what if we were to push a large file down the pipe?  The server has to load the <em>entire file</em> into memory, which will likely lead to issues.  We can mitigate this by either creating an exec type that executes `curl` or `wget` in order to pull down the file from a central file store, or by creating an OS specific package in our repository.  But even this can get kludgy, since not everything really translates well to being packaged as an .rpm or a .deb package (I could imagine a SQL dump or some sort of large schema needing to be managed by Puppet.)</li>
+</ol>
+
+Otherwise, for most deployments, Puppet is an excellent tool to use as a way to ease most administrative tasks.  It's much better and easier to manage than a repository of scripts, and it's easy to share your work with other sysadmins.

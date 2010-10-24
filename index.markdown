@@ -1,0 +1,24 @@
+---
+layout: default
+title: root
+---
+
+You've reached Christian "Ian" Paredes's website.
+
+I'm a senior system administrator at [Blue Box Group].  This is my personal
+technical blog.  I write about system administration related topics, as well
+as on programming and various other things of interest.
+
+10 Most Recent Posts
+--------------------
+
+<ul>
+{% for post in site.posts limit:10 %}
+  <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
+</ul>
+
+[all blog posts]
+
+[Blue Box Group]: http://blueboxgrp.com
+[all blog posts]: /archive.html

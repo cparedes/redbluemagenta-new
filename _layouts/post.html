@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<div class="post">
+  <h2 class="posttitle"><a href="{{ post.url }}">{{ page.title }}</a></h1>
+  <span class="postmeta">{{ page.date | date: "%B %d, %Y on %I:%M %p Pacific Time" }}</span>
+  {{ content }}
+  <h3>Possibly Related Posts</h3>
+  <ul>
+    {% for post in site.related_posts limit:3 %}
+    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+</div>
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+  /**
+    * var disqus_identifier; [Optional but recommended: Define a unique identifier (e.g. post id or slug) for this thread] 
+    */
+  (function() {
+   var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+   dsq.src = 'http://redbluemagenta.disqus.com/embed.js';
+   (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript=redbluemagenta">comments powered by Disqus.</a></noscript>
+<p><a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a></p>

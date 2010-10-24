@@ -1,0 +1,27 @@
+--- 
+layout: post
+title: Books
+post_id: "293"
+categories:
+- Books
+- Math
+- Personal
+- School
+---
+I was talking to a physics professor in Cafe Allegro that I've heard about and seen a couple of times at Seattle University.  We were talking a lot about various subjects in mathematics as well as his research in physics.  While we were talking, he mentioned a few books that I'm thinking about checking out at the library that sound extremely interesting, and in one case, extremely important.
+
+Here's a brief list of those books along with links to the corresponding Amazon page:
+
+<a href="http://www.amazon.com/Two-Cultures-Canto-C-Snow/dp/0521457300/ref=pd_bbs_sr_1/002-2734143-8902449?ie=UTF8&s=books&qid=1186609971&sr=8-1">The Two Cultures by C. P. Snow</a>
+<a href="http://www.amazon.com/Prime-Obsession-Bernhard-Greatest-Mathematics/dp/0452285259/ref=pd_bbs_sr_1/002-2734143-8902449?ie=UTF8&s=books&qid=1186609983&sr=8-1">Prime Obsession by Bernhard Derbyshire</a>
+<a href="http://www.amazon.com/Riemanns-Zeta-Function-Harold-Edwards/dp/0486417409/ref=sr_1_1/002-2734143-8902449?ie=UTF8&s=books&qid=1186610001&sr=8-1">Riemann's Zeta Function by Harold Edwards</a>
+
+The first book, <u>The Two Cultures</u>, is the important book that I mentioned earlier; it describes the disparate cultures between the two classes of intelligentsia, which are the literary intellectuals and the scientists.  It basically talks about how the literary intellectuals blow the sciences off as "nerdy" and "aloof," whereas the scientists often describe the literary intellectuals as "fuzzy" and "useless."  Because of this, the people who delve into literature do not know much at all about the sciences (and it can be argued that they actually do not know ANYTHING about it), and those who are more into the scientific pursuits read little to no literature.  Mind you, this book was written back in the 1950's, though the gap has considerably widened since then.  One reviewer on the Amazon website mentioned that the writer delves even deeper than the simple refusal to read anything from the other disciplines: he seems to delve a lot more into the issues of scientists having no moral compass, and the literary intellectuals not knowing how to fix the world even if they know that it is in a grave state.
+
+In any case, the book came up while we were talking about how everyone in the college level should at least learn calculus, which I completely agree with; even if it is something that is largely "useless" to those who are studying literature, it is, at the very least, the cornerstone and almost a basic set of knowledge for the Western world.  It's a shame, however, that calculus classes nowadays are geared more toward engineers than mathematicians, which tends toward a setup of topics that are largely motivated in terms of its usefulness rather than its mathematical rigor.  Anyway, calculus does impart knowledge of mathematics that cannot be gleaned from simply studying elementary algebra, trigonometry, and geometry, and it also sums up a lot of the change of thinking that went on within the last 300 years in almost all of the sciences.
+
+Getting back to the two other books, <u>Prime Obsession</u> seems to be an interesting layman's summary of the importance of the Riemann Zeta Function and Riemann's application of the function to analytic number theory.  The professor that I was talking to also mentioned that it has a lot to do with statistical distribution of the eigenvalues of a certain set of random matrices, which is extremely useful for analyzing random distributions of energies in a physical system.  The only problem, of course, is that the correlation between the distributions of the zeros of the Riemann Zeta Function and the distribution of eigenvalues of random matrices is unproven; if it's disproved, then many huge fields of mathematics will be wiped out completely (mostly because there's a lot of mathematicians who ASSUME it's true without proof.)
+
+<u>Riemann's Zeta Function</u> is a more technical treatise on the implications of the Riemann Zeta Function.  This is for the more hardened mathematician who wants to learn the inner workings of the function and its applicability to various problems in mathematics.
+
+Anyway, it seems I have a lot of reading to do.

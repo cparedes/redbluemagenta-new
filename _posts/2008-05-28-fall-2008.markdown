@@ -1,0 +1,14 @@
+--- 
+layout: post
+title: Fall 2008!
+post_id: "430"
+categories:
+- School
+---
+<p>Okay, here we are:</p>
+
+<p>
+MATH 407: Linear Optimization<br />
+PHIL 342: History of Modern Ethics<br />
+PHIL 453: Philosophy of Language<br />
+AAS 306: Basic Tagalog</p>

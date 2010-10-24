@@ -1,0 +1,153 @@
+---
+layout: post
+title: Web Security 101
+categories:
+- Systems Administration
+date: 2010-10-22 17:12:00
+---
+
+A friend of mine recently asked me what sort of security issues she should
+keep in mind when she's designing web pages and uploading them to a web server.
+
+Note that I'm differentiating between a web designer and a web developer, the
+latter of which would mostly work with writing code in some sort of
+language/framework that's meant to be used in a web application, such as
+Javascript, Ruby, Python, Java, etc.  This article is meant for web designers,
+who usually mock up UI prototypes and write the presentational stuff for a
+given website.
+
+The short answer is, "not too much."  If you're only designing static pages
+in HTML and CSS, there's really not too much you'd have to be worried about -
+the language, for instance, dictates only structure, content, and presentation,
+and doesn't touch upon anything that would interact with the system in any
+significant way.  The only scenario that I could think of that could really
+screw with a web designer is if you're writing up a web form that talks with
+a database, or if you're writing up a web form that transmits passwords over
+the internet, to which you have to worry about sanitizing your inputs for
+any strings that may try to execute an arbitrary SQL statement, or making
+sure that the web form is strictly communicating over SSL.
+
+The long answer is, "well, sure, there's a few.  You can't be too cautious."
+The biggest issue that could arise is improper file permissions on your files.
+I'll go ahead and enumerate each issue under a different header and explain
+a few of the basic things that one needs to keep in mind when uploading stuff
+to a server, and writing up static web pages.
+
+File Permissions
+----------------
+
+Most web servers these days are hosted on a UNIX platform; there's a small
+number that are hosted off of Windows, but more likely than not, when you're
+signing up for a web server at a random company, it'll be on a UNIX system.
+
+Therefore, you'll need to learn a few basics of UNIX permissions, at least
+enough to know what to do.
+
+There's three groups of people that UNIX recognizes for permissions:
+"owner," "group," and "the world."  As you might expect, the owner of the file
+is a single user that has complete ownership over the file.  Groups are simply
+groups of users on a UNIX system that are named explicitly on the UNIX system.
+Finally, "the world" is simply everyone else that is both not the owner of the
+file nor a part of the group that owns the file.
+
+On UNIX, this is expressed in a three digit number attached to each file and
+directory.
+
+<pre><code>
+7    7    7
+|    |    |
+owner group world</code></pre>
+
+These numbers specify exactly what sort of permissions are applied to the file
+for each user, group, and everyone else.  (In this particular case, 777 =
+read/write/execute for the user, group, and world.)
+
+How do these numbers specify the individual permissions for users, groups,
+and the world?
+
+UNIX adds up three different numbers (4, 2, and 1), with each specifying
+a different permission type.
+
+4 signifies read access for the file/directory.
+2 signifies write access for the file/directory.
+Finally, 1 signifies execute access for the file/directory.
+
+You can also deny all permissions by simply using "0" for the specific
+permission bit - say we only want read/write/execute for the owner,
+but not for anyone else.  Then we apply the permission "700" to the file,
+where "7" is for the owner, the second digit is for the group and the
+third digit is for the world.
+
+If I wanted read/write access for all users, then I add 4 + 2 together to get
+6 (since I want both read (4) and write (2) access), and then I use that number
+for every single group of people.  Therefore, I get 666. :)
+
+If I wanted read/write/execute for the owner, but only read only access for
+everyone else, then I use 744. For the first bit, 4 + 2 + 1 = 7, and then
+I use 4's for the other people for read-only access.
+
+In most FTP clients, you can right click the file and set the permissions
+within the FTP interface.  If you have a UNIX shell, you can execute
+the following command to change permissions on a specific file:
+
+<pre><code>$ chmod 744 [filename]</code></pre>
+
+How does this affect security when you're uploading HTML/CSS files to a web
+server?
+
+If you have 777 permissions on *every* file, then that means you're also
+granting full access to everyone on the system, *including* anyone who
+decides to hack the web server.  The latter scenario isn't totally
+implausible, but the former scenario is even more likely - since most shared
+web servers (usually the ones costing roughly $5-$10 per month) don't have
+much separation between each user on the system, that means any other customer
+can easily muck up your website without as much having explicit access to
+*your* account.
+
+When in doubt, use "644" permissions on your files.  That sets the file to be,
+as you might guess by now, read/write for the owner, and read only for everyone
+else.  For directories, use "755" permissions.  If you set directories to not
+have the execute permission set for a specific user/group, then you won't be
+able to change over to that directory in the future (this is easily fixed by
+setting the permissions back to 755.)
+
+Firewalls
+---------
+
+Typically, if you're using another web provider like A Small Orange or
+whoever else, you won't have to worry too much about this - they usually take
+care of those issues for you.
+
+However, if you're using a "virtual private server" (VPS) provider like
+Linode, prgmr, Slicehost, or Blue Box Group (yeah, sorry, shameless plug :)),
+or even your own server in your house, then you'll have to worry about setting
+up a firewall.
+
+Usually, you can setup the firewall to block all incoming traffic BUT the
+specific set of traffic associated with someone browsing a website.  The
+best way to determine, uniquely, whether someone's browsing a website or not,
+is by looking at what port they're trying to use.  For web traffic, the port
+number is port 80.  If you're serving secure content through HTTPS, then you'll
+have to open up port 443 as well.
+
+I can't possibly cover all of the different firewall products out there, so
+all I can say is that you should take a look at your firewall/router manual
+and see how you can do port forwarding for a particular machine.
+
+HTTPS
+-----
+
+[This wikipedia article](http://en.wikipedia.org/wiki/HTTPS) does a way
+better job of explaining the issue than I ever could.
+
+In short, you want to make sure that the server is vouched by some sort
+third party as a "legitimate website", and you want to make sure that any
+sensitive information (like passwords and the like) are transmitted in
+HTTPS.  HTTPS guarantees that any data being transferred between two
+parties (in this case, you and the server) is not transmitted in clear text.
+
+Conclusion
+----------
+
+This article ended up being much longer than I thought. :)  If anyone needs
+any clarification on any of the concepts, let me know.

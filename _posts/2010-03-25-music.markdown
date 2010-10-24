@@ -1,0 +1,17 @@
+--- 
+layout: post
+title: Music.
+post_id: "73"
+categories:
+- Music
+- No Age
+- The Fiery Furnaces
+- The Go Team
+---
+Instead of flooding people with a bunch of links to various bands/songs I've recently started getting into, I'll just post them in a single blog post and people can choose to pick over them if they wish.
+
+<a href="http://www.youtube.com/v/WgAFURNbdl8">The Fiery Furnaces: Automatic Husband (from Widow City)</a>
+
+<a href="http://www.youtube.com/v/tVgqDh0gz_U">The Go Team: My Head Hurts (From Archer Come Sparrow)</a>
+
+<a href="http://www.youtube.com/v/MGtAJH53ZGA">No Age: Dead Plane (live) (From Weirdo Rippers)</a>

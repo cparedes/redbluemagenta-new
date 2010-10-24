@@ -1,0 +1,22 @@
+--- 
+layout: post
+title: To do list
+post_id: "624"
+categories:
+- Books
+- Passenger
+- Personal
+- Programming
+- Rails
+- Ruby
+---
+There's a few things I want to accomplish over the next few months:
+
+<ol>
+<li>Read through at least one book in my <a href="/2010/05/11/reading-wishlist-or-what-i-would-read-if-i-didnt-dedicate-so-much-of-my-time-to-video-games/">reading list</a>. (~ within 2 months)</li>
+<li>Hack a bit more on <a href="http://enkiblog.com">Enki</a>; what I need to do is separate out the archives a bit more so that they are divided by months and years. (ongoing)</li>
+<li>Learn Python. (over the next two weeks)</li>
+<li><a href="/2010/06/03/goal-for-the-next-few-months-learn-a-functional-programming-language/">Learn a functional programming language</a>. (~ three months or so)</li>
+<li>Get Passenger and Rails setup on my <a href="http://prgmr.com">prgmr</a> VPS.  I've recently upgraded the amount of RAM on my VPS, now I just need to use it effectively.  This is also for getting Enki up and running. (as soon as (2) is mostly done)</li>
+<li>Completely replace Wordpress with Enki.  Enki is already shaping up to be a dream to hack on, whereas I can't even imagine myself hacking on Wordpress. (as soon as I get Passenger + Rails up and running)</li>
+</ol>
