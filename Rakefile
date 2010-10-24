@@ -1,5 +1,5 @@
 desc 'Run all tasks'
-task :default => [:tags, :commit]
+task :default => [:commit]
 
 desc 'Commit all files'
 task :commit do
