@@ -10,6 +10,7 @@ layout: default
   <ul>
     {% for post in site.related_posts limit:3 %}
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
 </div>
 
 <div id="disqus_thread"></div>

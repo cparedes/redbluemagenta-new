@@ -142,8 +142,7 @@ Web Programming and Design Portfolio
 
 * [redbluemagenta][rbm]
 
-	- Programmed Wordpress theme with light PHP, XHTML, and CSS.
-	- Self-managed NetBSD 5.0.2 Xen DomU server running lighttpd and MySQL.  Backed up daily to Amazon's S3
-	  service via duplicity.
+  - Designed website with vim.  Version controlled with git.
+  - Website generated using Jekyll, a Ruby-based static website generator.
 
 [rbm]: http://redbluemagenta.com

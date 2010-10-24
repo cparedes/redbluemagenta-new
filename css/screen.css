@@ -82,3 +82,8 @@ h1#title {
   list-style-type:none;
   padding:0 20px 0 20px;
 }
+
+#credits {
+  font-size:12px;
+  text-align:center;
+}

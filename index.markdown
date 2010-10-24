@@ -7,7 +7,8 @@ You've reached Christian "Ian" Paredes's website.
 
 I'm a senior system administrator at [Blue Box Group].  This is my personal
 technical blog.  I write about system administration related topics, as well
-as on programming and various other things of interest.
+as other things of interest, such as programming, music, and general
+advocacy for various technology related issues.
 
 10 Most Recent Posts
 --------------------
