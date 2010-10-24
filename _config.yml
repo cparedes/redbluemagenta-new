@@ -1,2 +1,3 @@
 markdown: rdiscount
 permalink: /:year/:month/:day/:title
+exclude: LICENSE, Rakefile, README.markdown, NOTES.markdown
