@@ -87,3 +87,7 @@ h1#title {
   font-size:12px;
   text-align:center;
 }
+
+#disqus_thread {
+  width:90%;
+}
