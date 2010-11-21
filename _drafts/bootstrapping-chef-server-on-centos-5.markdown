@@ -45,8 +45,8 @@ in /usr/lib/ruby/1.8/(architecture)-linux/ruby.h along the top of the file:
 ...
 </code></pre>
 
-I don't recommend doing this however, and the issue is properly fixed in
-subsequent versions of Ruby.
+I don't recommend doing this however, given that the issue is properly fixed in
+subsequent versions of Ruby and that Chef is only officially supported on Ruby 1.8.7 and above.
 
 After getting REE 1.8.7 installed, you'll now want to install the rubygems
 associated with the whole set of Chef packages.
@@ -81,6 +81,10 @@ these directories ourselves.
 # mkdir -p /var/chef
 # chown -R chef:chef /var/chef
 </code></pre>
+
+You'll likely want to symlink the chef binaries from $GEM_DIR/gems/chef{-server,-solr,...}-0.9.12/bin to /usr/local/bin or /usr/bin; you don't have to though, this is mostly so that the init scripts work as provided by the chef-0.9.12 gem.
+
+Copy over all of the contents in $GEM_DIR/gems/chef-0.9.12/distro/<distro> to their respective directories in the root directory of the machine.  There's also man pages that you can copy over from $GEM_DIR/gems/chef-0.9.12/distro/common, though they're largely out of date - you're better off using knife --help for more up to date documentation.
 
 
 
