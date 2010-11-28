@@ -21,5 +21,10 @@ advocacy for various technology related issues.
 
 [all blog posts]
 
+Want to reach me?
+
+IRC: cparedes @ irc.freenode.net, #lopsa, #gslug, #sasag, #chef, #blueboxgroup
+GTalk: cp@redbluemagenta.com
+
 [Blue Box Group]: http://blueboxgrp.com
 [all blog posts]: /archive.html
