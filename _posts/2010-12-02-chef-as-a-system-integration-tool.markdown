@@ -164,3 +164,9 @@ If you guys have any questions on any of the above, don't hesitate to let me
 know.
 
 Hope this article helps!
+
+**Further Reading:**
+
+1. Chef Search Syntax - [http://wiki.opscode.com/display/chef/Search](http://wiki.opscode.com/display/chef/Search)
+2. Solr - [http://lucene.apache.org/solr/](http://lucene.apache.org/solr/) (the search engine powering chef-server's search capabilities)
+3. Slides from Orchestration Panel at Cloud Connect 2010 - [http://www.slideshare.net/dev2ops/orchestration-panel-at-cloud-connect-2010](http://www.slideshare.net/dev2ops/orchestration-panel-at-cloud-connect-2010)
