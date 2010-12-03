@@ -160,3 +160,7 @@ easily be split apart.  You'll definitely need to use something that can
 gather all of that info into a single place, then generate the conf file
 based on some kind of central store's knowledge of the state of every machine.
 
+If you guys have any questions on any of the above, don't hesitate to let me
+know.
+
+Hope this article helps!
