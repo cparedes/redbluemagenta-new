@@ -1,3 +1,4 @@
 markdown: rdiscount
 permalink: /:year/:month/:day/:title
 exclude: LICENSE, Rakefile, README.markdown, NOTES.markdown
+google_analytics_code: UA-17521748-1
