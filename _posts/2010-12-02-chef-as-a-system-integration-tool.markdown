@@ -42,7 +42,7 @@ if you haven't worked with MySQL replication at all, then it's easy to
 screw everything up, doubly so if you automate your ignorance into the code.
 
 What helps for me is to first document exactly what steps I've taken to
-setup said application; then document how the application ties with any
+setup said application, then document how the application ties with any
 other service on the network.  Then redo your documentation in your favorite
 configuration management system.  Figure out if you need each machine to
 know every other machine's state; if so, then you might want to look into
