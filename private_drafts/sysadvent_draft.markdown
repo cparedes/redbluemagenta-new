@@ -169,7 +169,7 @@ servers.
 Anyway, hope this article helps!
 
 Further Reading:
-================
+----------------
 
 1. [http://redbluemagenta.com/2010/12/02/chef-as-a-system-integration-tool/](http://redbluemagenta.com/2010/12/02/chef-as-a-system-integration-tool/) - Chef system integration article from my blog.
 2. [http://wiki.opscode.com/display/chef/Search](http://wiki.opscode.com/display/chef/Search) - Chef Search syntax and other usage examples.
