@@ -29,7 +29,7 @@ pre {
   width: 100%;
   overflow: auto;
   border: 1px dotted #999;
-  padding:2px;
+  margin: 2px;
 }
 
 h1 {
