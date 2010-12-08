@@ -28,6 +28,8 @@ a:hover {
 pre {
   width: 100%;
   overflow: auto;
+  border: 1px dotted #281;
+  border-left: none;
 }
 
 h1 {
