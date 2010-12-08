@@ -5,7 +5,7 @@ title: root
 
 <center><a href="https://www.eff.org/pages/say-no-to-online-censorship"><img src="https://w2.eff.org/images/no_censorship_button.jpg"></a></center>
 
-*I'm placing this image prominently on the front page of my site, to show my support for a free internet, one without any restrictions on free speech.*
+*I'm placing this image prominently on the front page of my site to show my support for a free internet: a place without any restrictions on free speech by any governments or corporations.*
 
 You've reached Christian "Ian" Paredes's website.
 
