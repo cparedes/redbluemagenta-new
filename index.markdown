@@ -5,6 +5,8 @@ title: root
 
 <center><a href="https://www.eff.org/pages/say-no-to-online-censorship"><img src="https://w2.eff.org/images/no_censorship_button.jpg"></a></center>
 
+*I'm placing this image prominently on the front page of my site, to show my support for a free internet, one without any restrictions on free speech.*
+
 You've reached Christian "Ian" Paredes's website.
 
 I'm a senior system administrator at [Blue Box Group].  This is my personal
