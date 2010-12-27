@@ -33,6 +33,8 @@ Experience
 
 	- Currently providing Tier 3 support for all customers, as well as introducing various incremental improvements for our infrastructure and assisting with tier 1/2 tickets if need be.
 	- Setup chef-solo and chef-server deployments for customers who needed a fully automated infrastructure.
+	- Contributed code upstream for Chef.
+	- Maintain open sourced Chef recipes for the company on GitHub.
 
 *   **Systems Administrator** - Seattle, WA  
     *3TIER Group*: July 2010 - September 2010
