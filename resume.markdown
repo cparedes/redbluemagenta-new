@@ -122,10 +122,23 @@ Volunteer Work
 --------------
 
 *   **Chair of LOPSA Mentorship Program**  
-    *League of Professional System Administrators*: July 2010 - Present
+    *League of Professional System Administrators*: July 2010 - October 2010
 
 	- Successfully launched the LOPSA mentorship program with a small team of 10 volunteers.
 	- Within one week of launch, we've received roughly 15 applications and have setup 7 pairs so far.
+
+Open Source Contributions
+-------------------------
+
+*   **Chef**  
+    [http://github.com/opscode/chef](http://github.com/opscode/chef)
+
+        - Submitted patches along with Jesse Proudman for implementing Blue Box Blocks API support in knife.
+
+*   **libcloud**  
+    [http://github.com/cparedes/libcloud](http://github.com/cparedes/libcloud)
+
+        - Wrote support for Blue Box Blocks API in libcloud.  Pull request pending.
 
 Education
 ---------
