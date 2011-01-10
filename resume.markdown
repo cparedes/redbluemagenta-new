@@ -133,12 +133,12 @@ Open Source Contributions
 *   **Chef**  
     [http://github.com/opscode/chef](http://github.com/opscode/chef)
 
-        - Submitted patches along with Jesse Proudman for implementing Blue Box Blocks API support in knife.
+	- Submitted patches along with Jesse Proudman for implementing Blue Box Blocks API support in knife.
 
 *   **libcloud**  
     [http://github.com/cparedes/libcloud](http://github.com/cparedes/libcloud)
 
-        - Wrote support for Blue Box Blocks API in libcloud.  Pull request pending.
+	- Wrote support for Blue Box Blocks API in libcloud.  Pull request pending.
 
 Education
 ---------
