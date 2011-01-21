@@ -14,6 +14,9 @@ technical blog.  I write about system administration related topics, as well
 as other things of interest, such as programming, music, and general
 advocacy for various technology related issues.
 
+Looking for Sara?  [Here's her page].  She's awesome.  She can probably kick
+my ass in Python programming.
+
 10 Most Recent Posts
 --------------------
 
@@ -33,3 +36,4 @@ Want to reach me?
 
 [Blue Box Group]: http://blueboxgrp.com
 [all blog posts]: /archive.html
+[Here's her page]: http://sara.redbluemagenta.com/
