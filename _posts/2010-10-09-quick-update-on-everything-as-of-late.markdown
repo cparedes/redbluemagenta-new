@@ -57,5 +57,5 @@ my comp-sci-fu.
 
 Yep. :)
 
-[Blue Box Group, LLC]: http://blueboxgrp.com
+[Blue Box Group, LLC]: http://bluebox.net
 [3TIER]: http://3tier.com
