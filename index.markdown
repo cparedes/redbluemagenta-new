@@ -17,7 +17,7 @@ advocacy for various technology related issues.
 Looking for Sara?  [Here's her page].  She's awesome.  She can probably kick
 my ass in Python programming.
 
-Now in IPv6 with Hurricane Electric's [Tunnel Broker](http://tunnelbroker.net)!
+Now in IPv6 with Hurricane Electric's [Tunnel Broker](http://tunnelbroker.net), IP address 2001:470:1f05:17ee::dead:beef!
 
 10 Most Recent Posts
 --------------------
