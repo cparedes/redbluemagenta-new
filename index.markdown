@@ -36,6 +36,6 @@ Want to reach me?
 
 **GTalk**: cp@redbluemagenta.com
 
-[Blue Box Group]: http://blueboxgrp.com
+[Blue Box Group]: http://bluebox.net
 [all blog posts]: /archive.html
 [Here's her page]: http://sara.redbluemagenta.com/
