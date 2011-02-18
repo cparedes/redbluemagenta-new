@@ -33,8 +33,10 @@ Experience
 
 	- Currently providing Tier 3 support for all customers, as well as introducing various incremental improvements for our infrastructure and assisting with tier 1/2 tickets if need be.
 	- Setup chef-solo and chef-server deployments for customers who needed a fully automated infrastructure.
-	- Contributed code upstream for Chef.
-	- Maintain open sourced Chef recipes for the company on GitHub.
+	- Contributed code upstream for Chef and libcloud.
+	- Maintained open sourced Chef recipes for the company on GitHub.
+	- Automated several dedicated machine bootstrap components with Chef, such as automating OpenVZ installations, MySQL installations, etc., which saved several hours of time for large customer deployments.
+	- Blogged about technical problems and solutions on behalf of Blue Box Group.
 
 *   **Systems Administrator** - Seattle, WA  
     *3TIER Group*: July 2010 - September 2010
