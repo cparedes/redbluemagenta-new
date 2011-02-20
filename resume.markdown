@@ -11,7 +11,7 @@ Contact information available upon request.
 Summary of Qualifications
 -------------------------
 
-* SAGE Level II Systems Administrator with one year of systems administration experience. Emphasis on configuration management and web services.
+* SAGE Level II Systems Administrator with two year of systems administration experience. Emphasis on configuration management and web services.
 * Operating Systems:
 	- Intermediate: FreeBSD, NetBSD, OpenBSD, Linux.
 	- Novice: Mac OS X Server, Windows Server.
