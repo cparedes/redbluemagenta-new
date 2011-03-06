@@ -17,13 +17,17 @@ Summary of Qualifications
 	- Novice: Mac OS X Server, Windows Server.
 * Programming and Scripting Languages: 
 	- Intermediate: UNIX shell scripting, XHTML, CSS, LaTeX.
-	- Novice: awk, sed, PHP, Perl, SQL, Ruby.
+	- Novice: awk, sed, PHP, Perl, SQL, Ruby, Python.
 * Configuration Management:
-	- Novice: Puppet, Chef.
-* Databases:
-	- Novice: MySQL, PostgreSQL.
+	- Intermediate: Chef.
+	- Novice: Puppet.
+* Databases/Data Stores:
+	- Novice: MySQL, PostgreSQL, Redis.
+* Web Services:
+	- Intermediate: nginx, Apache.
+	- Novice: haproxy, stunnel, Passenger.
 * Certifications: A+ (July 2002)
-* Professional Organizations: Paying member of SAGE and LOPSA.
+* Professional Organizations: LOPSA.
 
 Experience
 ----------
