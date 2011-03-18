@@ -120,9 +120,9 @@ Open Source Contributions
 	- Coauthored patches with Jesse Proudman for implementing Blue Box Blocks API support in knife.
 
 *   **libcloud**  
-    [http://github.com/cparedes/libcloud](http://github.com/cparedes/libcloud)
+    [https://issues.apache.org/jira/browse/LIBCLOUD-73](https://issues.apache.org/jira/browse/LIBCLOUD-73)
 
-	- Wrote support for Blue Box Blocks API in libcloud.  Pull request pending.
+	- Wrote support for Blue Box Blocks API in libcloud.  Merged into trunk.
 
 Education
 ---------
