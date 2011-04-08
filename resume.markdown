@@ -33,7 +33,7 @@ Experience
 ----------
 
 *   **Senior System Administrator** - Seattle, WA  
-    *Blue Box Group*: September 2010 - Present
+    *Blue Box Group*: September 2010 - April 2011
 
 	- Currently providing Tier 3 support for all customers, as well as introducing various incremental improvements for our infrastructure and assisting with tier 1/2 tickets if need be.
 	- Setup chef-server deployments for customers who needed a fully automated multi-tiered infrastructure.
