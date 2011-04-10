@@ -9,9 +9,9 @@ title: root
 
 You've reached Christian "Ian" Paredes's website.
 
-I'm a senior system administrator at [Blue Box Group].  This is my personal
-technical blog.  I write about system administration related topics, as well
-as other things of interest, such as programming, music, and general
+I'm a systems administrator - I work mostly with web services and HPC administration.
+This is my personal technical blog.  I write about system administration related
+topics, as well as other things of interest, such as programming, music, and general
 advocacy for various technology related issues.
 
 Looking for Sara?  [Here's her page].  She's awesome.  She can probably kick
