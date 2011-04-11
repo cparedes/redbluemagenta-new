@@ -19,6 +19,8 @@ my ass in Python programming.
 
 Now in IPv6 with SixXS's [Tunnel Broker](http://sixxs.net), IP address 2001:1938:2a2:0:fcfd:adff:fee6:94b6!
 
+This server is also managed with [Chef](http://opscode.com).  It's pretty fantastic.
+
 10 Most Recent Posts
 --------------------
 
