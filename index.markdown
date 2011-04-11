@@ -3,7 +3,7 @@ layout: default
 title: root
 ---
 
-<center><a href="https://www.eff.org/pages/say-no-to-online-censorship"><img src="https://www.eff.org/files/filenode/white_no_censorship_button.png"></a></center>
+<center><a href="https://www.eff.org/pages/say-no-to-online-censorship"><img src="https://www.eff.org/files/filenode/white_no_censorship_button.png" /></a></center>
 
 *I'm placing this image prominently on the front page of my site to show my support for a free internet: a place without any restrictions on free speech by any governments or corporations.*
 
