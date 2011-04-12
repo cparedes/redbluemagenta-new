@@ -122,7 +122,7 @@ Open Source Contributions
 *   **fog**  
     [http://github.com/geemus/fog/pull/252](http://github.com/geemus/fog/pull/252)
 
-        - Fixed up Blue Box Blocks Load Balancer support for fog.  Pull request pending.
+	- Fixed up Blue Box Blocks Load Balancer support for fog.  Pull request pending.
 
 *   **libcloud**  
     [https://issues.apache.org/jira/browse/LIBCLOUD-73](https://issues.apache.org/jira/browse/LIBCLOUD-73)
