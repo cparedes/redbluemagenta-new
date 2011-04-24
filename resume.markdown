@@ -35,9 +35,10 @@ Experience
 *   **Senior System Administrator** - Seattle, WA  
     *Blue Box Group*: September 2010 - April 2011
 
-	- Currently providing Tier 3 support for all customers, as well as introducing various incremental improvements for our infrastructure and assisting with tier 1/2 tickets if need be.
+	- Provided Tier 3 support for large, high value customers.
+	- Introduced various incremental improvements for the infrastructure, such as Ruby/shell script automation and Chef automation, and assisted with tier 1/2 tickets.
 	- Setup chef-server deployments for customers who needed a fully automated multi-tiered infrastructure.
-	- Contributed code upstream for Chef and libcloud.
+	- Contributed code upstream for Chef, libcloud, and fog on behalf of Blue Box Group.
 	- Maintained open sourced Chef recipes for the company on GitHub.
 	- Automated several dedicated machine bootstrap components with Chef, such as automating OpenVZ installations, MySQL installations, etc., which saved several hours of time for large customer deployments.
 	- Started work on automating Cisco switch configuration.
@@ -115,19 +116,20 @@ Open Source Contributions
 -------------------------
 
 *   **Chef**  
-    [http://github.com/opscode/chef](http://github.com/opscode/chef)
+    *[opscode/knife-bluebox][kb]*
 
 	- Coauthored patches with Jesse Proudman for implementing Blue Box Blocks API support in knife.
 
 *   **fog**  
-    [http://github.com/geemus/fog/pull/252](http://github.com/geemus/fog/pull/252)
+    *[geemus/fog/pull req 252][fog]*
 
-	- Fixed up Blue Box Blocks Load Balancer support for fog.  Pull request pending.
+	- Fixed up Blue Box Blocks Load Balancer support for fog.
 
 *   **libcloud**  
+    *[libcloud/LIBCLOUD-73]*
     [https://issues.apache.org/jira/browse/LIBCLOUD-73](https://issues.apache.org/jira/browse/LIBCLOUD-73)
 
-	- Wrote support for Blue Box Blocks API in libcloud.  Merged into trunk.
+	- Wrote support for Blue Box Blocks API in libcloud.
 
 Education
 ---------
@@ -149,4 +151,7 @@ Web Programming and Design Portfolio
   - Designed website with vim.  Version controlled with git.
   - Website generated using Jekyll, a Ruby-based static website generator.
 
+[kb]: http://github.com/opscode/knife-bluebox
+[fog]: http://github.com/geemus/fog/pull/252
+[LIBCLOUD-73]: https://issues.apache.org/jira/browse/LIBCLOUD-73
 [rbm]: http://redbluemagenta.com
