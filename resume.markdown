@@ -116,20 +116,16 @@ Open Source Contributions
 -------------------------
 
 *   **Chef**  
-    *[opscode/knife-bluebox][kb]*
 
-	- Coauthored patches with Jesse Proudman for implementing Blue Box Blocks API support in knife.
+	- [opscode/knife-bluebox][kb]: add Blocks Load Balancer support in knife. 
 
 *   **fog**  
-    *[geemus/fog/pull req 252][fog]*
 
-	- Fixed up Blue Box Blocks Load Balancer support for fog.
+	- [geemus/fog/pull/252][fog]: Fixed up Blue Box Blocks Load Balancer support for fog.
 
 *   **libcloud**  
-    *[libcloud/LIBCLOUD-73]*
-    [https://issues.apache.org/jira/browse/LIBCLOUD-73](https://issues.apache.org/jira/browse/LIBCLOUD-73)
 
-	- Wrote support for Blue Box Blocks API in libcloud.
+	- [libcloud/LIBCLOUD-73][LIBCLOUD-73]: Wrote support for Blue Box Blocks API in libcloud.
 
 Education
 ---------
