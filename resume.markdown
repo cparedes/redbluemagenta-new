@@ -8,6 +8,11 @@ CHRISTIAN PAREDES
 
 Contact information available upon request.
 
+NOTICE TO RECRUITERS
+--------------------
+
+I'm not interested.  Thanks.
+
 Summary of Qualifications
 -------------------------
 
@@ -31,6 +36,13 @@ Summary of Qualifications
 
 Experience
 ----------
+
+*   **Systems Administrator** - Seattle, WA  
+    *Seattle Biomedical Research Institute*: April 2011 - Present
+
+	- Rolled out RVM and Puppet for all CentOS 5 and Ubuntu hosts, enabling us to upgrade to the latest version of Puppet.
+	- Maintained repository of Puppet manifests.
+	- FOR SCIENCE.
 
 *   **Senior System Administrator** - Seattle, WA  
     *Blue Box Group*: September 2010 - April 2011
