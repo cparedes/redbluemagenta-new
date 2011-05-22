@@ -34,7 +34,7 @@ This server is also managed with [Chef](http://opscode.com).  It's pretty fantas
 
 Want to reach me?
 
-**IRC**: cparedes @ irc.freenode.net, #lopsa, #gslug, #sasag, #chef, #blueboxgroup
+**IRC**: cparedes @ irc.freenode.net, #lopsa, #gslug, #sasag, #chef, #puppet, ##/r/sysadmin
 
 **GTalk**: cp@redbluemagenta.com
 
