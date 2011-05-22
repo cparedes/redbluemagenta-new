@@ -1,11 +1,13 @@
 ---
 title: Puppet vs. Chef
-published: false
+layout: post
+published: true
 categories:
 - Puppet
 - Chef
 - Configuration Management
-- Systems Administration
+- System Administration
+- DevOps
 date: 2011-05-21 19:25:00
 ---
 
