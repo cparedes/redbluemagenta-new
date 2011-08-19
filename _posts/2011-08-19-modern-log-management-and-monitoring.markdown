@@ -99,9 +99,9 @@ we wrote our macros as we did above:
 {
   @message => <whatever was matched in MESSAGE and assigned to @message>
   @fields => {
-               "timestamp" => <TIMESTAMP>
-               "user" => <USER>
-               "program" => <SYSLOGPROG>
+               "timestamp" => &lt;TIMESTAMP&gt;
+               "user" => &lt;USER&gt;
+               "program" => &lt;SYSLOGPROG&gt;
              }
 }
 </code></pre>
