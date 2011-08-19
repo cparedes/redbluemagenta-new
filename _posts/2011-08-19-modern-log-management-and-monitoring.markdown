@@ -11,7 +11,7 @@ date: 2011-08-19 12:29:00
 ---
 
 We've come a long way with monitoring in general - we have groups such as
-##monitoringsucks on Freenode who are discussing how to break down monitoring
+\#\#monitoringsucks on Freenode who are discussing how to break down monitoring
 into pieces so that we can come up with better tools to handle each component.
 We have tools such as [logstash](http://logstash.net) that can structure our
 logs, [graylog2](http://graylog2.org) for presenting them in real time, and
