@@ -42,6 +42,9 @@ Experience
 
 	- Rolled out RVM and Puppet for all CentOS 5 and Ubuntu hosts, enabling us to upgrade to the latest version of Puppet.
 	- Maintained repository of Puppet manifests.
+	- Implemented logstash, graylog2, and elasticsearch for logging infrastructure.
+	- Deployed mcollective for control of entire fleet of UNIX machines.
+	- Overhauled monitoring infrastructure with Opsview and automatic Puppet registration with Opsview via the Opsview REST API, as well as with collectd and graphite, for plotting system stats.
 	- FOR SCIENCE.
 
 *   **Senior System Administrator** - Seattle, WA  
